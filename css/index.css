@@ -1,0 +1,32 @@
+@keyframes fadeIn-n-Out{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+div{
+    margin-top: 10%;
+    font-size: 50px;
+    padding: 50px 0px;
+    background-color: yellow;
+    text-align: center;
+    animation-name: fadeIn-n-Out;
+    animation-duration: 0.8s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
